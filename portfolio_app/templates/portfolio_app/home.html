@@ -1,0 +1,135 @@
+<!-- portfolio_app/templates/portfolio_app/home.html -->
+{% extends "portfolio_app/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<h1>Welcome to My Portfolio</h1>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asher Paul's Portfolio</title>
+    <!-- Bootstrap or CSS Grid Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- For additional styling -->
+</head>
+#<body style="background-image: url('{% static 'portfolio_app/images/background.jpg' %}'); background-size: cover; background-repeat: no-repeat;">
+
+<style>
+        /* Set all text to a light color */
+        body {
+            color: #f0f0f0; /* Light grey or white color */
+            background-image: url('{% static "portfolio_app/images/background.jpg" %}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Additional styles for enhanced readability */
+        .section-overlay {
+            background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6, p, a, ul, li {
+            color: #ffffff !important; /* Ensures all text is white */
+        }
+
+        a {
+            color: #1e90ff; /* Light blue for links */
+        }
+
+        a:hover {
+            color: #ffcc00; /* Yellow on hover */
+        }
+    </style>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="public/contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="container text-center mt-5">
+       <img src="{% static 'portfolio_app/images/my pic.jpg' %}" alt="Isaac Omondi" class="img-fluid rounded-circle" width="200" height="200">
+
+
+
+         <p>Hello! I'm <b>Isaac Omondi</b>, an aspiring web developer currently pursuing a Bachelor's Degree in Computer Systems Engineering. I am passionate about software development and Fiber Technology.</p>
+
+    </header>
+
+    <!-- Tagline Section -->
+    <section class="container text-center mt-5">
+        <p class="lead">"Creative Developer with a Passion for Tech Innovation"</p>
+    </section>
+
+    <!-- Skills and Hobbies Section -->
+    <section id="aboutMe" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>JavaScript & Python</li>
+                    <li>Data Analysis</li>
+                    <li>Optical Fiber Termination</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Watching</li>
+                    <li>Traveling</li>
+                    <li>Reading </li>
+                    <li>Hiking</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="container text-center mt-5">
+
+      <p>Connect with me on <a href="https://www.linkedin.com/in/isaac-okumu-925792123/">LinkedIn</a> | <a href="https://github.com/oneokumu">GitHub</a> | <a href= "https://x.com/DellDelloh"> X(Formerly Twitter)</a></p>
+    </footer>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+<a class="nav-link" href="#aboutMe">About Me</a>
+<section id="aboutMe">...</section>
+
+
+</body>
+</html>
+
+<p>To Explore my work and <a href="/contact/">get in touch click here</a>!</p>
+{% endblock %}

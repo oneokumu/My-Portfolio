@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Default text color to white */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Section Overlay for Semi-Transparent Backgrounds */
+.section-overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background with 60% transparency */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Text Shadow for Readability */
+.text-shadow {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Adds a dark shadow around text */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background with slight transparency */
+    border-radius: 5px;
+}
+
+.navbar .nav-link {
+    color: #333333; /* Dark color for navbar links */
+}
+
+.navbar .nav-link:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+
+/* Header Section Styling */
+header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+header img {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+
+/* Tagline Section */
+.lead {
+    font-style: italic;
+    color: #ffcc00; /* Light yellow for the tagline text */
+}
+
+/* Skills and Hobbies Section */
+h3 {
+    color: #ffcc00; /* Light yellow for section headers */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    color: #ffffff; /* White text for list items */
+    font-size: 1.1em;
+}
+
+/* Footer Styling */
+footer {
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #1e90ff; /* Light blue color for footer links */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Yellow on hover */
+}
+
+/* Button and Link Styling */
+a {
+    color: #1e90ff; /* Light blue color for general links */
+}
+
+a:hover {
+    color: #ffcc00; /* Yellow on hover */
+}
